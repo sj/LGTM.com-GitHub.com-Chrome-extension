@@ -15,4 +15,4 @@ The extension is currently **not** packaged or available from the Chrome Web Sto
 
 ## License
 
-Unless stated otherwise, the code in this repository is licensed under the [Apache License, version 2.0](LICENSE.txt).
+Unless [stated otherwise](lib/README.md), the code in this repository is licensed under the [Apache License, version 2.0](LICENSE.txt).
