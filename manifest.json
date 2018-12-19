@@ -1,0 +1,12 @@
+{
+  "name": "LGTM.com GitHub extension",
+  "version": "1.0",
+  "description": "GitHub repositories that have been analysed by LGTM automatically get a link to LGTM.com",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "js": ["jquery-3.3.1.min.js", "content.js"],
+    "css": ["styles.css"],
+    "matches": ["https://github.com/*/*"]
+  }],
+  "web_accessible_resources": ["tarsius.png", "tarsius-disabled.png"]
+}
