@@ -1,4 +1,4 @@
-var github_url_rx = /https:\/\/github\.com\/([a-z0-9\-_]*)\/([a-z0-9\-_]*)/gi;
+var github_url_rx = /https:\/\/github\.com\/([a-z0-9\-_\.]*)\/([a-z0-9\-_\.]*)/gi;
 var github_url_info = github_url_rx.exec(window.location)
 
 if (github_url_info != null && github_url_info.length == 3) {
