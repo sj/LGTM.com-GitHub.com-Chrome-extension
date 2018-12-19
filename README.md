@@ -13,6 +13,15 @@ The extension is currently **not** packaged or available from the Chrome Web Sto
 3. Enable "Developer mode" (top right)
 4. Click "Load unpacked", and navigate to the location of your local clone of this repository
 
+
+## Ideas for future work
+
+ - If a repository hasn't been analysed by LGTM yet, give the user the option to add it to LGTM.com
+ - Support for forks: use the GitHub API to resolve a fork to its source, and then use that when linking to LGTM.com
+
+Pull requests are more than welcome!
+
+
 ## License
 
 Unless [stated otherwise](lib/README.md), the code in this repository is licensed under the [Apache License, version 2.0](LICENSE.txt).
