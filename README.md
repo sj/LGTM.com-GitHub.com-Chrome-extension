@@ -12,3 +12,7 @@ The extension is currently **not** packaged or available from the Chrome Web Sto
 2. Go to `chrome://extensions`
 3. Enable "Developer mode" (top right)
 4. Click "Load unpacked", and navigate to the location of your local clone of this repository
+
+## License
+
+Unless stated otherwise, the code in this repository is licensed under the [Apache License, version 2.0](LICENSE.txt).
