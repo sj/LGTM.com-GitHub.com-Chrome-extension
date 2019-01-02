@@ -17,7 +17,6 @@ The extension is currently **not** packaged or available from the Chrome Web Sto
 ## Ideas for future work
 
  - If a repository hasn't been analysed by LGTM yet, give the user the option to add it to LGTM.com
- - Support for forks: use the GitHub API to resolve a fork to its source, and then use that when linking to LGTM.com
 
 Pull requests are more than welcome!
 
