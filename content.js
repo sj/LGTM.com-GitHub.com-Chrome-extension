@@ -4,11 +4,11 @@
  * appear to be disabled.
  */
 function patch_page(github_org_repo){
-    img_disabled = chrome.runtime.getURL("tarsius-disabled.png")
-    img_normal = chrome.runtime.getURL("tarsius.png")
+    var img_disabled = chrome.runtime.getURL("tarsius-disabled.png")
+    var img_normal = chrome.runtime.getURL("tarsius.png")
     $(".pagehead-actions").prepend('<li><a target=_blank href="https://lgtm.com/projects/g/' + github_org_repo + '"><img class="lgtm-tarsius" src="' + img_disabled + '" /></a></li>')
 
-    lgtm_api_url = "https://lgtm.com/api/v1.0/projects/g/" + github_org_repo
+    var lgtm_api_url = "https://lgtm.com/api/v1.0/projects/g/" + github_org_repo
     console.log("Querying LGTM API: " + lgtm_api_url)
     
     $.ajax({
